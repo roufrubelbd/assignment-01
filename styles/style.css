@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 .raleway-primary {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -32,8 +36,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 150px;
+  width: 1140px;
+  height: 151px;
   padding: 10px 20px;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* banner style */
@@ -45,12 +55,15 @@ nav {
 }
 .banner-content{
       width: 905px;
-    height: 152px;
+    height: 237px;
     text-align: center;
     margin-top: 70px;
     margin-bottom: 70px;
 }
-.banner p{
+.banner-content button{
+  margin-top: 30px;
+}
+.banner h2{
     font-size: 65px;
     font-weight: bold; 
 }
@@ -59,5 +72,58 @@ nav {
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     width: 1440px;
-    height: 698px;
+    height: 650px;
+}
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 116px 150px;
+}
+.action-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.action-section img{
+  border-radius: 40px;
+}
+.action-section button{
+  margin-top: 20px;;
+}
+
+main{
+  background-color: rgba(245, 247, 255, 1);
+}
+.productive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productive-user{
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 20px;
+  padding: 50px;
+  width: 1140px;
+  height: 250px;
+  text-align: center;
+}
+.productive-user h3{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.productive-user h2{
+  font-size: 70px;
+  font-weight: bold;
+}
+.user-stats{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;;
+}
+.user-stats p{
+  margin-top: 8px;;
 }
