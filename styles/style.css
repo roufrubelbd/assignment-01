@@ -30,6 +30,10 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.btn-primary:hover {  
+  background-color: #FFB805;
+  color: black;
+}
 
 /* nav style */
 nav {
@@ -177,4 +181,67 @@ main{
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.focus-better{
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+.focus-better h3{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.focus-better button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.focus-better img{
+  border-radius: 50px;
+}
+.get-in-touch{
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.get-in-touch h3{
+  font-size: 90px;
+  font-weight: bold;
+}
+.get-in-touch form label{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.get-in-touch form input{
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(37, 36, 50, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.get-in-touch form textarea{
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(37, 36, 50, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.get-in-touch button{
+  width: 100%;
 }
